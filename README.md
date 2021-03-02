@@ -21,9 +21,9 @@ This workflow is intended for comparing gedi, icesat-2, or both against airborne
 
 This workflow downloads the icesat-2 data, but assumes that you already have gedi and airborne lidar downloaded (unless using NEON lidar - there is a script for that)
 
-| ![](https://github.com/Laura-Puckett/lidar_comparisons/blob/main/sites/Sierras/figures/by_conus_forest_cover_ALS_abvg_grid.pdf) | 
+| ![](https://github.com/Laura-Puckett/LauraPuckett_Portfolio/blob/ccf59588b8754a188497844d27fc999225798048/Screen%20Shot%202021-03-02%20at%2011.09.14%20AM.png) | 
 |:--:| 
-| *Example output comparing GEDI and Icesat-2 by forest cover percent for a site in the Sierra Nevada Mountains* |
+| *Example output comparing GEDI and Icesat-2 for a site in the Sierra Nevada Mountains* |
 
 # [Project 3. Assessing LVIS airborne LiDAR Internal Consistency](https://github.com/Laura-Puckett/evaluate_LVISF2_internal_consistency)
 The goal of this project was to determine if repeat measurements of LVIS airborne waveform lidar are sufficiently consistent to be used for change detection of soil burning in boreal forest wildfires. The removal of thick soil organic layer in the boreal forest is ecologically relevant for forest regeneration trajectory and also useful for estinmating carbon release due to the combustion of organic soil. If differences in ground elevation estimates of the same location are generally greater than 5cm over a period of time where no changes would be expected (such as consecutive days) then it will not be possible to use these data for detecting burn depth. Ultimately this was the case, and the project shifted direction to assess the use of UAV structure-from-motion data, rather than airborne waveform lidar data, to study burn depth resulting from a wildfire near Fairbanks, Alaska.
