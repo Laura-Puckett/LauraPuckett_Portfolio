@@ -27,3 +27,7 @@ This workflow downloads the icesat-2 data, but assumes that you already have ged
 
 # [Project 3. Assessing LVIS airborne LiDAR Internal Consistency](https://github.com/Laura-Puckett/evaluate_LVISF2_internal_consistency)
 The goal of this project was to determine if repeat measurements of LVIS airborne waveform lidar are sufficiently consistent to be used for change detection of soil burning in boreal forest wildfires. The removal of thick soil organic layer in the boreal forest is ecologically relevant for forest regeneration trajectory and also useful for estinmating carbon release due to the combustion of organic soil. If differences in ground elevation estimates of the same location are generally greater than 5cm over a period of time where no changes would be expected (such as consecutive days) then it will not be possible to use these data for detecting burn depth. Ultimately this was the case, and the project shifted direction to assess the use of UAV structure-from-motion data, rather than airborne waveform lidar data, to study burn depth resulting from a wildfire near Fairbanks, Alaska.
+
+| ![](https://github.com/Laura-Puckett/LauraPuckett_Portfolio/blob/32c02a140bea2921dd4c509fd142b4208ec961b3/Screen%20Shot%202021-03-02%20at%2011.29.03%20AM.png) | 
+|:--:| 
+| *Comparison of LVIS elevation measurements. Values correspond to the difference in spatially matched pairs of LVIS footprints from different acquisitions* |
