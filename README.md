@@ -1,7 +1,7 @@
 # LauraPuckett_Portfolio
 A simple overview of my recent public projects
 
-# [Project 1. Spruce Fractional Cover Mapping at NEON BONA Site](https://github.com/Laura-Puckett/spruce_mapping_NEON_BONA/tree/main)
+# [Project 1. Spruce Fractional Cover Modeling at the NEON BONA Site](https://github.com/Laura-Puckett/spruce_mapping_NEON_BONA/tree/main)
 This was an exploratory project to determine the utility of airborne data collected as part of NASA's ABoVE airborne campaign (AVIRIS-NG hyperspectral and LVIS waveform LiDAR data) for estimating percent cover of black spruce forest. 
 While this workflow could be expanded over a larger area, this small project was focused on an area near Fairbanks, Alaska, where NEON forest inventory measurements are available across a gradient of environmental conditions. 
 The NEON field data was manipulated and used as the "ground-truth" values for the proprtional cover of black spruce. 
