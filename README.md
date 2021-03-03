@@ -2,8 +2,8 @@
 A simple overview of my recent public projects
 
 # [Project 1. Spruce Fractional Cover Mapping at NEON BONA Site](https://github.com/Laura-Puckett/spruce_mapping_NEON_BONA/tree/main)
-This is an exploratory project to determine the utility of airborne data collected as part of NASA's ABoVE airborne campaign (AVIRIS-NG hyperspectral and LVIS waveform LiDAR data) for estimating percent cover of black spruce forest. 
-While this workflow could be expanded over a larger area, this small project was focused on an area near Fairbanks, ALaska, where NEON field measurements of tree inventory are available across a gradient of environmental conditions. 
+This was an exploratory project to determine the utility of airborne data collected as part of NASA's ABoVE airborne campaign (AVIRIS-NG hyperspectral and LVIS waveform LiDAR data) for estimating percent cover of black spruce forest. 
+While this workflow could be expanded over a larger area, this small project was focused on an area near Fairbanks, Alaska, where NEON forest inventory measurements are available across a gradient of environmental conditions. 
 The NEON field data was manipulated and used as the "ground-truth" values for the proprtional cover of black spruce. 
 AVIRIS-NG spectral bands and LVIS relative height metrics were used as predictors in a simple model. 
 The main bottleneck in this project was loading and intersecting these large geospatial datasets to produce a training dataset containing plot-level values for all datasets. 
@@ -17,7 +17,7 @@ In order to continue this analysis, more field sites should be incorporated acro
 
 
 # [Project 2. Comparing spaceborne LiDAR datasets](https://github.com/Laura-Puckett/lidar_comparisons)
-This workflow is intended for comparing gedi, icesat-2, or both against airborne lidar data for an area. Because Icesat-2 and GEDI can't be compared directly against each other (due to mismatch in size/shape of footprints), comparing them against airborne lidar separately is used here to infer how similar they are to each other.
+This workflow is intended for comparing gedi, icesat-2, or both against airborne lidar data for an area. Because Icesat-2 and GEDI can't be compared directly against each other (due to mismatch in size/shape of footprints), comparing them against airborne lidar separately is used here to infer how similar they are to each other. The workflow is currently set up to run on a computing cluster, because building the geometries that represent each spaceborne lidar footprint and then extracting the intersecting airborne lidar values is computationally intensive. Processes are automated to run from a single bash script. 
 
 This workflow downloads the icesat-2 data, but assumes that you already have gedi and airborne lidar downloaded (unless using NEON lidar - there is a script for that)
 
